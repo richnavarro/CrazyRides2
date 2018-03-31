@@ -1,0 +1,38 @@
+{
+    "expo": {
+        "name": "Crazy Rides",
+        "description": "A very interesting project",
+        "sdkVersion": "25.0.0",
+        "orientation": "portrait",
+        "privacy": "public",
+        "icon": "./app.png",
+        "primaryColor": "#00AAFF",
+        "version": "2.23.1",
+        "splash": {
+            "image": "./splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#ffffff"
+        },
+        "packagerOpts": {
+            "assetExts": ["otf"]
+        },
+        "androidStatusBar": {
+            "backgroundColor": "#ffffff",
+            "barStyle": "dark-content"
+        },
+        
+        "android": {
+            "package": "com.crazyrides.catalog",
+            "versionCode": 2,
+            "config":{
+            "googleMaps":{
+                "apiKey": "AIzaSyBw4-1JHgdP4wcyjHN46MWtBo0Et5WpF2w"
+            }
+            }
+        },
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.crazyrides.catalog"
+        }
+    }
+}
